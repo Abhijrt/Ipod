@@ -1,6 +1,7 @@
 import React from "react";
 import Screen from "./Screen";
 import ZingTouch from "zingtouch";
+import sound from "../assets/music/i-Like.mp3";
 
 class Ipod extends React.Component {
   constructor() {
@@ -172,6 +173,9 @@ class Ipod extends React.Component {
   render() {
     return (
       <div style={styles.ipodContainer}>
+        <audio className="audio-element">
+          <source src={sound}></source>
+        </audio>
         <Screen
           activeItem={this.state.activeItem}
           activePage={this.state.activePage}

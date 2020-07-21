@@ -1,5 +1,5 @@
 import React from "react";
-import artistImage from "./assets/images/sejal.jpeg";
+import artistImage from "../assets/images/Abhay.jpeg";
 
 class Artists extends React.Component {
   render() {
@@ -27,7 +27,7 @@ class Artists extends React.Component {
               </span>
             </h4>
             <p style={{ marginBottom: "0" }}> React Project</p>
-            <p>Made by : Sejal Gupta</p>
+            <p>Made by : Abhay Jirati</p>
           </div>
         </div>
 

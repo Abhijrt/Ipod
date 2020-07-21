@@ -1,5 +1,4 @@
 import React from "react";
-import sound from "./assets/music/Senorita.mp3";
 
 class MyMusic extends React.Component {
   constructor() {

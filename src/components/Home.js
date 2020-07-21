@@ -74,18 +74,16 @@ const styles = {
     flexDirecton: "row",
   },
   menuList: {
-    //border:'1px solid black',
     height: "100%",
     width: "50%",
     boxShadow: "10px 0px 15px -5px rgba(0,0,0,0.75)",
     zIndex: "1",
   },
   imageContainer: {
-    //border:'1px solid black',
     height: "100%",
     width: "50%",
     backgroundImage:
-      'url("https://i.pinimg.com/originals/b5/ca/9a/b5ca9a6c64b6a5c445dc993dd6294d10.jpg")',
+      'url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fnewevolutiondesigns.com%2F50-free-hd-city-wallpapers&psig=AOvVaw2f3aAkAPfQPzRNkDyuvDV8&ust=1595416526300000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMDBxe2b3uoCFQAAAAAdAAAAABAD")',
     backgroundSize: "cover",
     backgroundPosition: "center",
     borderRadius: "0 12px 12px 0",
