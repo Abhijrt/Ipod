@@ -11,7 +11,6 @@ class Music extends React.Component {
             <img
               style={styles.battery}
               src="https://image.flaticon.com/icons/svg/3103/3103446.svg"
-              alt="music-img"
             ></img>
           </div>
           <ListGroup style={{ borderRadius: "0" }}>
