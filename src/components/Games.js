@@ -2,6 +2,7 @@ import React from "react";
 
 class Games extends React.Component {
   render() {
+    // game component design
     return (
       <div style={styles.settings}>
         <div style={styles.titleBar}>
@@ -24,6 +25,7 @@ class Games extends React.Component {
   }
 }
 
+// game component style
 const styles = {
   settings: {
     width: "100%",

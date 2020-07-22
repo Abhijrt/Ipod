@@ -3,6 +3,7 @@ import artistImage from "../assets/images/Abhay.jpeg";
 
 class Artists extends React.Component {
   render() {
+    // Artist component design
     return (
       <div style={styles.artistsContainer}>
         <div style={styles.titleBar}>
@@ -43,6 +44,7 @@ class Artists extends React.Component {
   }
 }
 
+// styles for showing the artist
 const styles = {
   artistsContainer: {
     height: "100%",

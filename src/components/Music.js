@@ -5,6 +5,7 @@ import homeImg from "../assets/images/home.jpg";
 
 class Music extends React.Component {
   render() {
+    // music compoent design
     return (
       <div style={styles.musicScreen} id="music-screen">
         <div style={styles.menuList} id="menu-list">
@@ -46,7 +47,7 @@ class Music extends React.Component {
     );
   }
 }
-
+// music component style
 const styles = {
   musicScreen: {
     height: "100%",

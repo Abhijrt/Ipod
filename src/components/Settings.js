@@ -2,6 +2,7 @@ import React from "react";
 
 class Settings extends React.Component {
   render() {
+    // setting component design
     return (
       <div style={styles.settings}>
         <div style={styles.titleBar}>
@@ -32,6 +33,7 @@ class Settings extends React.Component {
   }
 }
 
+// setting component style
 const styles = {
   settings: {
     width: "100%",

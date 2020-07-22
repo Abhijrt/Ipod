@@ -1,4 +1,5 @@
 import React from "react";
+// importing the components
 import Home from "./Home";
 import Music from "./Music";
 import Games from "./Games";
@@ -8,6 +9,7 @@ import Artists from "./Artists";
 
 class Screen extends React.Component {
   render() {
+    // showing all the components with condition
     return (
       <div style={styles.screen} id="screen-container">
         {this.props.activePage === "Home" ? (
@@ -27,6 +29,7 @@ class Screen extends React.Component {
   }
 }
 
+// styles for showing the components
 const styles = {
   screen: {
     height: "50%",

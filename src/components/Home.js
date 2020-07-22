@@ -4,6 +4,7 @@ import homeImg from "../assets/images/home.jpg";
 
 class Home extends React.Component {
   render() {
+    // home component design
     return (
       <div style={styles.homeScreen} id="home-screen">
         <div style={styles.menuList} id="menu-list">

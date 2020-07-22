@@ -1,6 +1,9 @@
 import React from "react";
+// importing the screen
 import Screen from "./Screen";
+// importing the zingtouch fot rotating the wheel
 import ZingTouch from "zingtouch";
+// importing the song
 import sound from "../assets/music/i-Like.mp3";
 
 class Ipod extends React.Component {
@@ -14,6 +17,7 @@ class Ipod extends React.Component {
     };
   }
 
+  // function for wheel roatation when we move mouse
   rotateWheel = () => {
     var containerElement = document.getElementById("inner-container");
     var activeRegion = new ZingTouch.Region(containerElement);
@@ -108,6 +112,7 @@ class Ipod extends React.Component {
     }
   };
 
+  // when we click ok button for changing  the page
   changePage = () => {
     if (this.state.activeItem === "Music") {
       this.setState({
@@ -127,6 +132,7 @@ class Ipod extends React.Component {
     }
   };
 
+  // when we click home icon for going to the home page
   changePageToHomeScreen = () => {
     if (
       this.state.activeItem === "MyMusic" ||
@@ -144,6 +150,7 @@ class Ipod extends React.Component {
     }
   };
 
+  // when we go play or pause the song
   toggle = () => {
     if (this.state.activePage === "MyMusic") {
       if (this.state.play === true) {
@@ -163,7 +170,6 @@ class Ipod extends React.Component {
 
   componentDidMount() {
     let audio = document.getElementsByClassName("audio-element")[0];
-    console.log(audio);
     this.setState({
       audio: audio,
     });
@@ -176,12 +182,13 @@ class Ipod extends React.Component {
         <audio className="audio-element">
           <source src={sound}></source>
         </audio>
+        {/* First Screen For Showing options */}
         <Screen
           activeItem={this.state.activeItem}
           activePage={this.state.activePage}
           audio={this.state.audio}
         />
-
+        {/* Circle part or function of the rotate */}
         <div
           id="inner-container"
           style={styles.wheel}
@@ -233,6 +240,7 @@ class Ipod extends React.Component {
   }
 }
 
+// styles for functions of the wheel
 const styles = {
   ipodContainer: {
     height: "33rem",
