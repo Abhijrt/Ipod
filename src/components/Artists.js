@@ -10,6 +10,7 @@ class Artists extends React.Component {
           <img
             style={styles.battery}
             src="https://image.flaticon.com/icons/svg/3103/3103446.svg"
+            alt="battery-img"
           ></img>
         </div>
 
@@ -23,6 +24,7 @@ class Artists extends React.Component {
                 <img
                   style={styles.image}
                   src="https://image.flaticon.com/icons/svg/953/953909.svg"
+                  alt="creater-img"
                 />
               </span>
             </h4>

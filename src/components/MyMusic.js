@@ -1,4 +1,5 @@
 import React from "react";
+import SongImg from "../assets/images/song.jpg";
 
 class MyMusic extends React.Component {
   constructor() {
@@ -32,7 +33,9 @@ class MyMusic extends React.Component {
   };
 
   componentWillUnmount() {
-    this.state.isMounted = false;
+    this.setState({
+      isMounted: false,
+    });
   }
 
   render() {
@@ -44,14 +47,12 @@ class MyMusic extends React.Component {
           <img
             style={styles.battery}
             src="https://image.flaticon.com/icons/svg/3103/3103446.svg"
+            alt="battery-img"
           ></img>
         </div>
 
         <div style={styles.info}>
-          <img
-            style={styles.image}
-            src="https://images.news18.com/ibnlive/uploads/2019/07/Shawn-Mendes-Camila-Cabello.jpg"
-          ></img>
+          <img style={styles.image} src={SongImg} alt="song-img"></img>
           <div style={styles.subInfo}>
             <h4 style={{ marginBottom: "0.5rem" }}>Senorita</h4>
             <p style={{ marginBottom: "0" }}>Camilla Cobello</p>

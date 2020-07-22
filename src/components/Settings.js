@@ -9,6 +9,7 @@ class Settings extends React.Component {
           <img
             style={styles.battery}
             src="https://image.flaticon.com/icons/svg/3103/3103446.svg"
+            alt="battery-img"
           ></img>
         </div>
         <div
@@ -23,6 +24,7 @@ class Settings extends React.Component {
           <img
             style={styles.image}
             src="https://image.flaticon.com/icons/svg/929/929435.svg"
+            alt="setting-img"
           />
         </div>
       </div>

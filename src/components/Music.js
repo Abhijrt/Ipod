@@ -1,6 +1,8 @@
 import React from "react";
 import { ListGroup } from "react-bootstrap";
 
+import homeImg from "../assets/images/home.jpg";
+
 class Music extends React.Component {
   render() {
     return (
@@ -11,6 +13,7 @@ class Music extends React.Component {
             <img
               style={styles.battery}
               src="https://image.flaticon.com/icons/svg/3103/3103446.svg"
+              alt="battery-img"
             ></img>
           </div>
           <ListGroup style={{ borderRadius: "0" }}>
@@ -62,8 +65,7 @@ const styles = {
     //border:'1px solid black',
     height: "100%",
     width: "50%",
-    backgroundImage:
-      'url("https://i.pinimg.com/originals/b5/ca/9a/b5ca9a6c64b6a5c445dc993dd6294d10.jpg")',
+    backgroundImage: `url(${homeImg})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     borderRadius: "0 12px 12px 0",
