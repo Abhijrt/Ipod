@@ -55,8 +55,8 @@ class MyMusic extends React.Component {
           <img style={styles.image} src={SongImg} alt="song-img"></img>
           <div style={styles.subInfo}>
             <h4 style={{ marginBottom: "0.5rem" }}>I Like</h4>
-            <p style={{ marginBottom: "0" }}>Camilla Cobello</p>
-            <p>Shawn Mendes</p>
+            <p style={{ marginBottom: "0" }}>English Song</p>
+            <p>Unknown</p>
           </div>
         </div>
 

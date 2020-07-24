@@ -16,7 +16,7 @@ class Games extends React.Component {
         <div style={{ width: "100%", height: "90%" }}>
           <img
             style={styles.image}
-            src="https://media2.giphy.com/media/uYe2emzPgDfj2/giphy.webp?cid=ecf05e47fa455dac230de80fff0206077175b008801bc689&rid=giphy.webp"
+            src="https://media.giphy.com/media/kc6n0RKTFbDJC/giphy.gif"
             alt="game-gif"
           />
         </div>
